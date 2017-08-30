@@ -1,0 +1,12 @@
+﻿# ShowTimes API - AccessToken-   NwVEh1oFCmR3x7WugzqxCRhAj5JcDvs0
+# ShowTimes API Doco - https://api.cinepass.de/documentation/v4/#Guides
+# Parameters required to retrieve showtime info for 'vivegam' movie
+#usecase - Get all showtimes of a movie running in all theatres within a specific coordinate (radius set to 30 kilometres).
+movieid = 28311
+Country = AU
+cityid = 7684
+Latitude = -37.813628
+Longitude = 144.963058
+Radius = 50Km
+https://api.cinepass.de/v4/showtimes?movie_id=28311&location=-37.813628,144.963058&distance=50 [ Across Melbourne]
+
