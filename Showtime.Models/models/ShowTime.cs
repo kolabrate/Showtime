@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Showtime.Models.models
 {
-    public class Enquiry
+    public class ShowTime
     {
+
     }
 }

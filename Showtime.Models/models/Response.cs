@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Showtime.Models.models
 {
-    class Response
+    public class Response
     {
     }
 }
