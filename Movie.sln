@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showtime.Models", "Showtime.Models\Showtime.Models.csproj", "{369932F8-3B7B-4CA0-895C-D8E1AFB4877C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Models", "Showtime.Models\Movie.Models.csproj", "{369932F8-3B7B-4CA0-895C-D8E1AFB4877C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showtime.Service", "Showtime.Service\Showtime.Service.csproj", "{6A85DBD0-442E-45D3-A1A4-AF658D88C8F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Service", "Showtime.Service\Movie.Service.csproj", "{6A85DBD0-442E-45D3-A1A4-AF658D88C8F3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{369932F8-3B7B-4CA0-895C-D8E1AFB4877C} = {369932F8-3B7B-4CA0-895C-D8E1AFB4877C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showtime.Web", "Showtime.Web\Showtime.Web.csproj", "{0BEC58E4-DDD7-4297-978F-495C4AD398FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Web", "Showtime.Web\Movie.Web.csproj", "{0BEC58E4-DDD7-4297-978F-495C4AD398FE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6A85DBD0-442E-45D3-A1A4-AF658D88C8F3} = {6A85DBD0-442E-45D3-A1A4-AF658D88C8F3}
 		{369932F8-3B7B-4CA0-895C-D8E1AFB4877C} = {369932F8-3B7B-4CA0-895C-D8E1AFB4877C}

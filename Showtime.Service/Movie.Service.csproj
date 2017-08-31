@@ -7,8 +7,8 @@
     <ProjectGuid>{6A85DBD0-442E-45D3-A1A4-AF658D88C8F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Showtime.Service</RootNamespace>
-    <AssemblyName>Showtime.Service</AssemblyName>
+    <RootNamespace>Movie.Service</RootNamespace>
+    <AssemblyName>Movie.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,16 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\GetFromShowTimeAPI.cs" />
-    <Compile Include="IGetShowTime.cs" />
+    <Compile Include="API\ShowTimeAPI.cs" />
+    <Compile Include="IMovie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowTimeInfo.cs" />
-    <Compile Include="Util.cs" />
+    <Compile Include="Movie.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Showtime.Models\Showtime.Models.csproj">
+    <ProjectReference Include="..\Showtime.Models\Movie.Models.csproj">
       <Project>{369932f8-3b7b-4ca0-895c-d8e1afb4877c}</Project>
-      <Name>Showtime.Models</Name>
+      <Name>Movie.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
